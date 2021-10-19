@@ -10,6 +10,9 @@
 		<Product>AlphaBlazor</Product>
 		<Description>Some Usefullcomponent for Blazor server / webAssembelly</Description>
 		<PackageLicenseExpression></PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/Alibesharat/AlphaBlazor</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Alibesharat/AlphaBlazor</RepositoryUrl>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	</PropertyGroup>
 
 
@@ -18,6 +21,14 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="3.1.18" />
 		<SupportedPlatform Include="browser" />
 
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <None Include="licenses\LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
